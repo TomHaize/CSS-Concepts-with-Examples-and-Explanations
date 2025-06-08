@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CSS Concepts with Examples and Explanations</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+<header>
+  <h1>CSS Concepts with Examples and Explanations</h1>
+  <p>This page demonstrates key CSS concepts with clear examples and detailed explanations.</p>
+</header>
+
+<nav>
+  <a href="#margin">Margin</a>
+  <a href="#padding">Padding</a>
+  <a href="#border">Border</a>
+  <a href="#box-shadow">Box Shadow</a>
+  <a href="#text-align">Text Align</a>
+  <a href="#text-decoration">Text Decoration</a>
+  <a href="#font">Fonts</a>
+  <a href="#float-clear">Float & Clear</a>
+  <a href="#overflow">Overflow</a>
+  <a href="#opacity">Opacity</a>
+  <a href="#position">Position</a>
+  <a href="#colors">Colors & Background</a>
+</nav>
+
+<main>
+
+  <!-- MARGIN -->
+  <section id="margin" class="section">
+    <h2>Margin (Outer space)</h2>
+    <p><em>Margin creates space outside the element's border, pushing other elements away.</em></p>
+    <p>Use <strong>margin-top</strong> to add space above an element.</p>
+    <div class="example margin-top">Margin Top (20px)</div>
+
+    <p>Use <strong>margin-right</strong> to add space to the right of an element.</p>
+    <div class="example margin-right">Margin Right (20px)</div>
+
+    <p>Use <strong>margin-bottom</strong> to add space below an element.</p>
+    <div class="example margin-bottom">Margin Bottom (20px)</div>
+
+    <p>Use <strong>margin-left</strong> to add space to the left of an element.</p>
+    <div class="example margin-left">Margin Left (20px)</div>
+
+    <p>Use the shorthand <strong>margin</strong> to set all sides at once (top, right, bottom, left).</p>
+    <div class="example margin-all">Margin All (20px)</div>
+
+    <p>Shorthand margin values can be set individually like <code>margin: 10px 15px 20px 25px;</code> (top, right, bottom, left).</p>
+    <div class="example margin-shorthand">Margin Shorthand (10px 15px 20px 25px)</div>
+  </section>
+
+  <!-- PADDING -->
+  <section id="padding" class="section">
+    <h2>Padding (Inner space)</h2>
+    <p><em>Padding creates space inside the element, between the content and the border.</em></p>
+    <p>Use <strong>padding-top</strong> to add space above the content inside the element.</p>
+    <div class="example padding-top">Padding Top (20px)</div>
+
+    <p>Use <strong>padding-right</strong> to add space to the right inside the element.</p>
+    <div class="example padding-right">Padding Right (20px)</div>
+
+    <p>Use <strong>padding-bottom</strong> to add space below the content inside the element.</p>
+    <div class="example padding-bottom">Padding Bottom (20px)</div>
+
+    <p>Use <strong>padding-left</strong> to add space to the left inside the element.</p>
+    <div class="example padding-left">Padding Left (20px)</div>
+
+    <p>The shorthand <strong>padding</strong> sets padding on all sides at once.</p>
+    <div class="example padding-all">Padding All (20px)</div>
+
+    <p>Padding shorthand can specify different values for each side like <code>padding: 5px 10px 15px 20px;</code> (top, right, bottom, left).</p>
+    <div class="example padding-shorthand">Padding Shorthand (5px 10px 15px 20px)</div>
+  </section>
+
+  <!-- BORDER -->
+  <section id="border" class="section">
+    <h2>Border (Element outline)</h2>
+    <p><em>Borders surround the padding and content, creating a visible outline.</em></p>
+    <p>The <strong>border-style</strong> can be set to solid, dashed, dotted, double, etc.</p>
+    <p>Example of a solid border:</p>
+    <div class="example border-solid">Border solid (solid line)</div>
+
+    <p>Example of a dashed border:</p>
+    <div class="example border-dashed">Border dashed (dashed line)</div>
+
+    <p>Example of a dotted border:</p>
+    <div class="example border-dotted">Border dotted (dotted line)</div>
+
+    <p>Example of a double border:</p>
+    <div class="example border-double">Border double (double lines)</div>
+
+    <p>Border thickness can be adjusted, for example <code>border-width: 5px;</code></p>
+    <div class="example border-thick">Thick Border (5px)</div>
+
+    <p>You can also change the border color as needed.</p>
+    <div class="example border-purple">Purple Border</div>
+  </section>
+
+  <!-- BOX SHADOW -->
+  <section id="box-shadow" class="section">
+    <h2>Box Shadow (Drop shadow)</h2>
+    <p><em>Adds shadow around or below the element for depth.</em></p>
+    <p>Small shadow example:</p>
+    <div class="example box-shadow-small">Small Shadow</div>
+
+    <p>Medium shadow example:</p>
+    <div class="example box-shadow-medium">Medium Shadow</div>
+
+    <p>Large shadow example:</p>
+    <div class="example box-shadow-large">Large Shadow</div>
+
+    <p>You can customize shadows with offsets, blur radius, spread, and color.</p>
+    <div class="example box-shadow-custom">Custom Shadow</div>
+  </section>
+
+  <!-- TEXT ALIGN -->
+  <section id="text-align" class="section">
+    <h2>Text Align (Horizontal text alignment)</h2>
+    <p><em>Controls horizontal alignment of text inside a container.</em></p>
+    <p><strong>left</strong> aligns text to the left side.</p>
+    <p class="text-left example">Left aligned text</p>
+
+    <p><strong>center</strong> centers the text horizontally.</p>
+    <p class="text-center example">Center aligned text</p>
+
+    <p><strong>right</strong> aligns text to the right side.</p>
+    <p class="text-right example">Right aligned text</p>
+
+    <p><strong>justify</strong> stretches text to align both left and right edges.</p>
+    <p class="text-justify example">Justified text - aligned left and right</p>
+  </section>
+
+  <!-- TEXT DECORATION -->
+  <section id="text-decoration" class="section">
+    <h2>Text Decoration (Text styling lines)</h2>
+    <p><em>Add lines or decoration styles to text.</em></p>
+    <p>No decoration:</p>
+    <p class="td-none example">No text decoration</p>
+
+    <p>Underline:</p>
+    <p class="td-underline example">Underline</p>
+
+    <p>Overline (line above text):</p>
+    <p class="td-overline example">Overline</p>
+
+    <p>Line-through (strikethrough):</p>
+    <p class="td-line-through example">Line-through</p>
+
+    <p>Double decoration: underline and overline combined.</p>
+    <p class="td-double example">Underline + Overline</p>
+  </section>
+
+  <!-- FONTS -->
+  <section id="font" class="section">
+    <h2>Fonts (Typography)</h2>
+    <p><em>Control font family, size, weight, and line height.</em></p>
+    <p>Font family example:</p>
+    <p class="font-family example">Font family: Georgia, serif</p>
+
+    <p>Font size examples:</p>
+    <p class="font-size-small example">Small font size (14px)</p>
+    <p class="font-size-medium example">Medium font size (18px)</p>
+    <p class="font-size-large example">Large font size (26px)</p>
+
+    <p>Font weight examples:</p>
+    <p class="font-weight-light example">Light font weight (300)</p>
+    <p class="font-weight-normal example">Normal font weight (400)</p>
+    <p class="font-weight-bold example">Bold font weight (900)</p>
+
+    <p>Line height controls vertical spacing between lines:</p>
+    <p class="line-height example">Line height: 2 (double spacing)</p>
+  </section>
+
+  <!-- FLOAT & CLEAR -->
+  <section id="float-clear" class="section">
+    <h2>Float & Clear (Element positioning)</h2>
+    <p><em>Float moves an element to the left or right, allowing text or other elements to wrap around it.</em></p>
+    <p>Float left example:</p>
+    <div class="float-left example">Float Left: This box floats left with surrounding text wrapping on the right.</div>
+
+    <p>Float right example:</p>
+    <div class="float-right example">Float Right: This box floats right with text wrapping on the left.</div>
+
+    <div class="clearfix"></div>
+
+    <p>Clear prevents elements from wrapping around floated elements, clearing the float.</p>
+    <div class="clear-both example">This box clears both left and right floats.</div>
+  </section>
+
+  <!-- OVERFLOW -->
+  <section id="overflow" class="section">
+    <h2>Overflow (Handling content outside bounds)</h2>
+    <p><em>Controls how content that exceeds an element's size is handled.</em></p>
+    <p><strong>hidden</strong> hides overflowing content.</p>
+    <div class="overflow-hidden example">
+      <div class="large-content">This content is wider than the container and will be hidden if it overflows.</div>
+    </div>
+
+    <p><strong>scroll</strong> adds scrollbars to allow scrolling overflow content.</p>
+    <div class="overflow-scroll example">
+      <div class="large-content">This content is wider than the container and scrollbars appear so you can scroll to see all.</div>
+    </div>
+
+    <p><strong>auto</strong> adds scrollbars only if necessary.</p>
+    <div class="overflow-auto example">
+      <div class="large-content">Scrollbars appear only if content overflows container bounds.</div>
+    </div>
+  </section>
+
+  <!-- OPACITY -->
+  <section id="opacity" class="section">
+    <h2>Opacity (Transparency)</h2>
+    <p><em>Controls the transparency level of an element.</em></p>
+    <p>Fully opaque:</p>
+    <div class="opacity-1 example">Opacity: 1 (fully visible)</div>
+
+    <p>70% opacity (30% transparent):</p>
+    <div class="opacity-07 example">Opacity: 0.7</div>
+
+    <p>50% opacity (half transparent):</p>
+    <div class="opacity-05 example">Opacity: 0.5</div>
+
+    <p>30% opacity (mostly transparent):</p>
+    <div class="opacity-03 example">Opacity: 0.3</div>
+  </section>
+
+  <!-- POSITION -->
+  <section id="position" class="section">
+    <h2>Position (Element positioning)</h2>
+    <p><em>Controls how an element is positioned in the document flow.</em></p>
+    <p><strong>Relative</strong> positions the element relative to its normal position.</p>
+    <div class="relative-box example">
+      Relative Box (position: relative)
+      <div class="absolute-box">Absolute Box (position: absolute)</div>
+    </div>
+
+    <p><strong>Absolute</strong> positions the element relative to the nearest positioned ancestor.</p>
+    <p>The red box above is absolutely positioned inside the relative box.</p>
+  </section>
+
+  <!-- COLORS & BACKGROUND -->
+  <section id="colors" class="section">
+    <h2>Colors & Background</h2>
+    <p><em>Change text colors and backgrounds for styling.</em></p>
+    <p>Text colors:</p>
+    <p class="color-red example">Red text</p>
+    <p class="color-blue example">Blue text</p>
+    <p class="color-green example">Green text</p>
+
+    <p>Background colors:</p>
+    <p class="bg-yellow example">Yellow background</p>
+    <p class="bg-lightgray example">Light gray background</p>
+
+    <p>Background gradients:</p>
+    <p class="bg-gradient example">Gradient background</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 CSS Examples and Explanations</p>
+</footer>
+
+</body>
+</html>
