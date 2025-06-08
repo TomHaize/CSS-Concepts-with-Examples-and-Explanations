@@ -1,0 +1,430 @@
+/* General page styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007acc;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  color: #1a73e8;
+}
+
+.section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ddd;
+}
+
+/* COMMON EXAMPLE BOX */
+.example {
+  background-color: #e3f2fd;
+  border: 1px solid #90caf9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  color: #0d47a1;
+  font-weight: 600; }
+
+/* ====== MARGIN ====== */
+
+.margin-top {
+  margin-top: 20px;
+  background-color: #d0e8ff;
+}
+
+.margin-right {
+  margin-right: 20px;
+  background-color: #c9f0c4;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+  background-color: #fcd0d0;
+}
+
+.margin-left {
+  margin-left: 20px;
+  background-color: #ffe5b4;
+}
+
+.margin-all {
+  margin: 20px;
+  background-color: #e6d0ff;
+}
+
+.margin-shorthand {
+  margin: 10px 15px 20px 25px;
+  background-color: #ffdae0;
+}
+
+/* ====== PADDING ====== */
+
+.padding-top {
+  padding-top: 20px;
+  background-color: #d0f0fd;
+  border: 1px solid #007acc;
+}
+
+.padding-right {
+  padding-right: 20px;
+  background-color: #bff0bf;
+  border: 1px solid #07a007;
+}
+
+.padding-bottom {
+  padding-bottom: 20px;
+  background-color: #fdbfbf;
+  border: 1px solid #a00000;
+}
+
+.padding-left {
+  padding-left: 20px;
+  background-color: #ffe0b3;
+  border: 1px solid #b07a00;
+}
+
+.padding-all {
+  padding: 20px;
+  background-color: #d6b3ff;
+  border: 1px solid #5400a0;
+}
+
+.padding-shorthand {
+  padding: 5px 10px 15px 20px;
+  background-color: #ffbccb;
+  border: 1px solid #a02c3d;
+}
+
+/* ====== BORDER ====== */
+
+.border-solid {
+  border: 2px solid black;
+}
+
+.border-dashed {
+  border: 2px dashed blue;
+}
+
+.border-dotted {
+  border: 2px dotted green;
+}
+
+.border-double {
+  border: 4px double red;
+}
+
+.border-thick {
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+.border-purple {
+  border: 3px solid purple;
+}
+
+/* ====== BOX SHADOW ====== */
+
+.box-shadow-small {
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+  background: white;
+}
+
+.box-shadow-medium {
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+  background: white;
+}
+
+.box-shadow-large {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  background: white;
+}
+
+.box-shadow-custom {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  background: white;
+}
+
+/* ====== TEXT ALIGN ====== */
+
+.text-left {
+  text-align: left;
+  background: #def0fc;
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
+  background: #fcf4de;
+  padding: 10px;
+}
+
+.text-right {
+  text-align: right;
+  background: #fcdcdb;
+  padding: 10px;
+}
+
+.text-justify {
+  text-align: justify;
+  background: #dbfcdc;
+  padding: 10px;
+}
+
+/* ====== TEXT DECORATION ====== */
+
+.td-none {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.td-underline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.td-overline {
+  text-decoration: overline;
+  font-weight: bold;
+}
+
+.td-line-through {
+  text-decoration: line-through;
+  font-weight: bold;
+}
+
+.td-double {
+  text-decoration-line: underline overline;
+  font-weight: bold;
+}
+
+/* ====== FONTS ====== */
+
+.font-family {
+  font-family: Georgia, serif;
+}
+
+.font-family-sans {
+  font-family: Arial, sans-serif;
+}
+
+.font-size-small {
+  font-size: 14px;
+}
+
+.font-size-medium {
+  font-size: 18px;
+}
+
+.font-size-large {
+  font-size: 26px;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-normal {
+  font-weight: 400;
+}
+
+.font-weight-bold {
+  font-weight: 900;
+}
+
+.line-height {
+  line-height: 2;
+  background-color: #eef6fb;
+  padding: 10px;
+}
+
+/* ====== FLOAT & CLEAR ====== */
+
+.float-left {
+  float: left;
+  width: 45%;
+  background-color: #cce5ff;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #007acc;
+  box-sizing: border-box;
+}
+
+.float-right {
+  float: right;
+  width: 45%;
+  background-color: #ffd9cc;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #cc3300;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Clear example */
+
+.clear-both {
+  clear: both;
+  background-color: #fce4ec;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #e91e63;
+}
+
+/* ====== OVERFLOW ====== */
+
+.overflow-hidden {
+  width: 300px;
+  height: 80px;
+  overflow: hidden;
+  border: 1px solid #777;
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.overflow-scroll {
+  width: 300px;
+  height: 80px;
+  overflow: scroll;
+  border: 1px solid #777;
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.overflow-auto {
+  width: 300px;
+  height: 80px;
+  overflow: auto;
+  border: 1px solid #777;
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.large-content {
+  width: 400px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+/* ====== OPACITY ====== */
+
+.opacity-1 {
+  opacity: 1;
+  background-color: #90caf9;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.opacity-07 {
+  opacity: 0.7;
+  background-color: #90caf9;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.opacity-05 {
+  opacity: 0.5;
+  background-color: #90caf9;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.opacity-03 {
+  opacity: 0.3;
+  background-color: #90caf9;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* ====== POSITION ====== */
+
+.relative-box {
+  position: relative;
+  border: 2px solid #007acc;
+  height: 150px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #d9eaff;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: 2px solid #cc3300;
+  background-color: #ffcfcf;
+  padding: 8px;
+  font-weight: bold;
+  width: 150px;
+  text-align: center;
+}
+
+/* ====== COLORS & BACKGROUND ====== */
+
+.color-red {
+  color: red;
+  font-weight: bold;
+}
+
+.color-blue {
+  color: blue;
+  font-weight: bold;
+}
+
+.color-green {
+  color: green;
+  font-weight: bold;
+}
+
+.bg-yellow {
+  background-color: yellow;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.bg-lightgray {
+  background-color: lightgray;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.bg-gradient {
+  background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  padding: 10px;
+  font-weight: bold;
+  color: #5a0000;
+}
